@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+}
+p{
+    color: black;
+    background-color: crimson;
+    padding: 15px;/*La caja css que envuelve al texto se hace mas grande con padding*/
+    border: 10px;/*Va despues de el padding y los elementos que rodean a esta caja*/
+    /*margin: 20px 20px 20px 20px;/*Los elementos tienen mas espacio entre si*/
+    /*El orden es top right bottom left */
+    margin: auto 50px;
+    text-align: center;
+}
+/*Las paletas de colores bonitas son muy importantes, una pagina buena es coolors.co*/

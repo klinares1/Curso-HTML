@@ -1,0 +1,27 @@
+h1{
+    color: #f07167;
+}
+
+a:link{/*Esto es el link default antes de click*/
+    color: #fb8500;
+    text-decoration: none;
+}
+a:visited{
+    color: #219ebc ;
+    text-decoration: none; /*Quita el subrayado a los links*/
+}
+a:hover{/*Cuando nos ponemos sobre el elemento*/
+    color: aqua;
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+/*Se pueden poner varias acciones con la ,
+    a:link, a:visited{
+        color: white;
+    }
+
+*/
